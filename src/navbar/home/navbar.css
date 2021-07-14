@@ -1,0 +1,117 @@
+.home-navbar {
+    justify-content: space-around;
+    align-content: center;
+    display: flex;
+    box-shadow: 0 8px 6rem -6rem black;
+    position: sticky;
+    z-index: 1;
+}
+.navbar-list {
+    list-style: none;
+    justify-content: space-around;
+    align-content: center;
+    display: flex;
+}
+.navbar-link {
+    text-decoration: none;
+    color: #370617;   
+    font-weight: 600;   
+}
+.navbar-link:hover {
+    color: #a2d2ff;
+}
+.logo {
+    width: 4.9rem;
+    height: 3.9rem;
+    padding-top: 0.5rem;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+.logo-fontawsome {
+    justify-content: space-around;
+    align-content: center;
+    display: flex;
+    padding-left: 1rem;
+}
+.searchBox {
+    position: absolute;
+    top: 5%;
+    left: 55%;
+    transform:  translate(-50%,50%);
+    background: #151371;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.searchBox:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+    color: #FFFFFF;
+    background: #151371;
+}
+
+.searchButton {
+    color: #FFFFFF;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #151371;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    position: relative;
+    bottom: 0.5rem;
+}
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    position: relative;
+    bottom: 0.5rem;
+
+}
+
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+}
+}
+
+.navbar-dropdown {
+    list-style: none;
+}
+.navbar-dropdown {
+    display: none;
+    position: absolute;
+    right: 3rem;
+    top: 4.4rem;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 16px 16px;
+}
+.display-navbar-dropdown:hover .navbar-dropdown {
+    justify-content: space-around;
+    align-content: center;
+    position: absolute;
+    display: block;
+    font-size: 0.9rem;
+}
+.display-navbar-dropdown:hover .navbar-dropdown li {
+    padding: 0.9rem 0.9rem;
+}

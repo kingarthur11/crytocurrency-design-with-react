@@ -1,0 +1,53 @@
+.map-section {
+    color: whitesmoke;
+    width: 100%;
+    height: 20rem;
+    padding: 0 5rem;
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+}
+.map-content {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.map-image {
+    width: 12rem;
+    height: 12rem;
+    padding: 0ch;
+}
+.banner-p {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.banner-button {
+    background: linear-gradient(0deg, #151371, #151371);
+    border-radius: 4px;
+    width: 8rem;
+    height: 2.1rem;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.home-banner-h5 {
+    padding-top: 1.4rem;
+    font-size: 1.4rem;
+}
+
+.map-text {
+    /* padding-left: 17rem; */
+    width: 27rem;
+}
+.map-svg {
+    border: 5px dashed #FFFFFF;
+    border-radius: 50%;
+    border: 5px dashed #FFFFFF;
+
+}

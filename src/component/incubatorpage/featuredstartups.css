@@ -1,0 +1,208 @@
+.incubator-container {
+    padding: 3rem;
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+}
+.incubator-body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.incubator-content {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+.left-arrow-mangoswap-content {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    margin-left: 0.9rem;
+    border-radius: 50%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.left-arrow-mangoswap-content:hover {
+    background: #dee2e6;
+    color: #03045e;
+    box-shadow:10px 5px 50px grey;  
+}
+.incubator-body-h3 {
+    color: #FFFFFF;
+    line-height: 35px;
+    font-size: 1.9rem;
+}
+.incubator-body-p {
+    color: #FFFFFF;
+    font-size: 0.9rem;
+    line-height: 25px;
+    padding-top: 1rem;
+}
+.upcoming-body {
+    padding: 0 3rem;
+    width: 100%;
+}
+.upcoming-content {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+    width: 100%;
+}
+.mangoswap-header {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+.mangoswap {
+    width: 16rem;
+    height: 19rem; 
+    background: #FFFFFF; 
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 9px;
+}
+.incubator-title {
+    width: 16rem;
+    height: 19rem; 
+    padding-top: 5rem;
+}
+.mangoswap-p {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+}
+.mangoswap-h4 {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.flex-space-around {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.flex-space-center {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.fund-raise-p {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #000000;
+}
+.fund-raise-h4 {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+}
+.mangoswap-horizontal-line {
+    position: relative;
+    top: 0.6rem;
+    width: 140px;
+    height: 10px;
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+    border-radius: 25.5px;
+}
+.mangoswap-horizontal-line-gray {
+    width: 13rem;
+    height: 10px;
+    background: #E0E0E0;
+    border-radius: 25.5px;
+}
+.mangoswap-button {
+    padding: 1.3rem;
+}
+.mangoswap-button-blue {
+    background: #141471;
+    border-radius: 4px;
+    padding: 0.4rem 0.3rem;
+    cursor: pointer;
+    color: #FFFFFF;
+
+}
+.mangoswap-button-blue:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mangoswap-button-white {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 0.4rem;
+    margin-left: 0.4rem;
+    cursor: pointer;
+    color: #141471;
+}
+.mangoswap-button-white:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.advice-image {
+    width: 20rem;
+    height: 11rem; 
+    margin: 1rem;
+}
+.advice-image-button-join {
+    position: relative;
+    top: -8rem;
+    left: 5rem;
+    color: #FFFFFF;
+    border: #FFFFFF solid 1px;
+    padding: 0.9rem;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+.advice-image-button-join:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.advice-image-button-advice{
+    position: relative;
+    top: -8rem;
+    left: 7rem;
+    color: #FFFFFF;
+    border: #FFFFFF solid 1px;
+    padding: 0.9rem;
+    background-color: rgba(0, 0, 0, 0);
+    
+    cursor: pointer;
+}
+.advice-image-button-advice:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.advice-image-button-help {
+    position: relative;
+    top: -8rem;
+    left: 7rem;
+    padding: 0.9rem;
+    border: #FFFFFF solid 1px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer; 
+}
+.advice-image-button-help:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+.incubator-load-more-button {
+    padding: 0.9rem 4rem;
+    margin: 2rem 0 4rem 33rem;
+    background: rgba(255, 255, 255, 0.3);
+    border: #FFFFFF solid 1px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.incubator-load-more-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}

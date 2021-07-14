@@ -1,0 +1,163 @@
+.crypto-body {
+    background: #151371;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    z-index: -1;
+}
+.crypto-content {
+    padding-top: 2.2rem;
+}
+.crypto {
+    margin-left: 11.7rem;
+}
+.crypto-card {
+    width: 38rem;
+    height: 9rem;
+    margin: 2.3rem;
+    border: 1px solid;
+    padding: 2rem;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 92.3%;
+    color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 5px 40px 5px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(110.62deg, rgba(255, 255, 255, 0.25) 6.39%, rgba(255, 255, 255, 0) 53.34%);
+}
+.crypto-sidebar {
+    padding-left: 2rem;
+    /* margin: 2rem; */
+    display: block;
+    justify-content: space-between;
+    align-content: center;
+    overflow-y: scroll;
+    /* height: 250px; */
+    width: 250px;
+}
+.crypto-sidebar-list {
+    margin-top: 3rem;
+    list-style: none;
+}
+.crypto-sidebar-list li {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 92.3%;
+    color: #FFFFFF;
+    padding: 0.8rem;
+}
+.crypto-list {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 92.3%;
+    color: #FFFFFF;
+    position: relative;
+    cursor: pointer;
+}
+.crypto-list-li {
+    padding-left: 6rem;
+}
+.crypto-list :last-child{
+    position: absolute;
+    top: 2rem;
+    right: 0%;
+    margin-left: 15rem;
+    width: 11.8%;
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+    height: 0.3rem;
+    transition: all 1s ease-in-out;
+}
+.crypto-list li:hover {
+    transition: font-size .1s linear,
+                font-weight 1s linear;
+}
+.crypto-list li:nth-child(1).line-effect ~ .underline-effect {
+    left: 0%;
+}
+.crypto-list li:nth-child(2).line-effect ~ .underline-effect {
+    left: 20%;
+}
+.crypto-list li:nth-child(3).line-effect ~ .underline-effect {
+    left: 40%;
+}
+.crypto-list li:nth-child(1):hover ~ .underline-effect {
+    left: 0%;
+}
+.crypto-list li:nth-child(2):hover ~ .underline-effect {
+    left: 20%;
+    padding-right: 8.6rem;
+}
+.crypto-list li:nth-child(3):hover ~ .underline-effect {
+    left: 40%;
+    padding-right: 9.7rem;
+}
+.crypto-sidebar-h3{
+    font-size: 1.3rem;
+    line-height: 92.3%;
+    color: #FFFFFF;
+}
+.crypto-sidebar-list li:first-child {
+    font-size: 1.3rem;
+}
+
+.crypto-complete-button {
+    background: #00AA4F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 10rem;
+    height: 1.5rem;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-size: 0.7rem;
+    position: relative;
+    top: -1.3rem;
+    left: 25rem;
+    cursor: pointer;
+}
+.crypto-progress-button {
+    background: #FF655B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 10rem;
+    height: 1.5rem;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-size: 0.7rem;
+    position: relative;
+    top: -1.3rem;
+    left: 25rem;
+    cursor: pointer;
+}
+.crypto-card-horizontal {
+    margin-left: 10rem;
+    width: 50%;
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+    height: 0.3rem;
+}
+.crypto-card-h3 {
+    text-align: center;
+    margin-bottom: 0.9rem;
+}
+.crypto-card-h5 {
+    text-align: center;
+    padding-top: 1.3rem;
+    font-size: 0.8rem;
+}
+.sidebar-fontawsome {
+    color: #00AA4F;
+    padding-right: 0.6rem;
+    font-size: 1.6rem;
+}
+.sidebar-fontawsome-lastchild {
+    padding-right: 0.6rem;
+    font-size: 1.6rem;
+}

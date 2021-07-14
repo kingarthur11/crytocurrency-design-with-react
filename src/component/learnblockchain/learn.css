@@ -1,0 +1,110 @@
+.learn-blockchain-body {
+    background: #151371;
+    justify-content: center;
+    align-content: center;
+    display: block;
+    padding: 4rem;
+}
+.dot {
+    align-items: flex-start;
+    color: #00D248;
+}
+.learn-blockchain-content {
+    max-height: 40rem;
+    padding-top: 7rem;
+    justify-content: center;
+    overflow: auto;
+    display: flex;
+}
+.learn-blockchain-content::-webkit-scrollbar{
+    width: 0;
+}
+.learn-search {
+    width: 35rem;
+    height: 2rem;
+    background: #FFFFFF;
+    margin-bottom: 3rem;
+}
+.blockchain-search-input{
+    padding: 0.5rem;
+    width: 20rem;
+    border: none;
+}
+.blockchain-search-input:focus,
+.blockchain-search-input:active{
+    border: none
+}
+.learn-search-fontawsome {
+    padding-left: 13.2rem;
+}
+.blockchain-list{
+    align-content: center;
+    margin-left: 8rem;
+}
+.blockchain-list-h3{
+    font-family: Red Hat Display;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+.learn-card {
+    box-shadow: 0px 5px 40px 5px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(110.62deg, rgba(255, 255, 255, 0.25) 6.39%, rgba(255, 255, 255, 0) 53.34%);
+    mix-blend-mode: normal;
+    border-radius: 0.9rem;
+    width: 20rem;
+    height: 14rem;
+    padding: 1rem;
+    color: #FFFFFF;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+.earn-button {
+    background: #9CFF83;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    width: 7rem;
+    height: 1.2rem;
+    margin-left: 11rem;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-size: 0.7rem;
+}
+.blockchain-card-h2 {
+    font-weight: 500;
+    font-size: 1.7rem;
+    padding-top: 0.9rem;
+}
+.blockchain-card-h3 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+.blockcain-card-button {
+    background: linear-gradient(104.61deg, #FF00B8 2.65%, #FF655B 51.83%, #FFC700 100%);
+    border-radius: 30px;
+    width: 7.5rem;
+    height: 2.1rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+
+}
+.blockchain-card-modules {
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 10rem;
+    margin-bottom: 0.4rem;
+}
+.blockchain-card-p {
+    font-weight: 500;
+    font-size: 0.7rem;
+    margin-left: 6rem;
+    margin-top: 0.6rem;
+}

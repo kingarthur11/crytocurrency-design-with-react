@@ -1,0 +1,90 @@
+.crypto-body {
+    background: #151371;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+.video {
+    margin: 4rem;
+}
+.video-card {
+    padding: 4rem;
+    color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 5px 40px 5px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(110.62deg, rgba(255, 255, 255, 0.25) 6.39%, rgba(255, 255, 255, 0) 53.34%);
+}
+.video-card-header1{
+    font-size: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+.video-card-time {
+    padding-bottom: 2rem;
+}
+.video-card-header2 {
+    padding-bottom: 0.9rem;
+}
+.video-card-header4 {
+    padding-top: 2.8rem;
+    padding-bottom: 0.9rem;
+}
+.video-card-page{
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+/* side bar */
+
+.crypto-sidebar {
+    padding-left: 2rem;
+    padding-top: 1.8rem;
+    display: block;
+    justify-content: space-between;
+    align-content: center;
+    overflow-y: scroll;
+    width: 300px;
+}
+.crypto-sidebar-h4 {
+    font-size: 1.5rem;
+    line-height: 92.3%;
+    color: #FFFFFF;
+}
+.chev-sidebar {
+    padding-right: 0.9rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.crypto-sidebar-p{
+    font-size: 1.1rem;
+    line-height: 92.3%;
+    color: #FFFFFF;
+    padding-bottom: 1.7rem;
+    text-align: left;
+}
+.crypto-sidebar-list {
+    margin-top: 3rem;
+    list-style: none;
+}
+.crypto-sidebar-list li {
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 92.3%;
+    color: #FFFFFF;
+    padding: 0.8rem;
+    cursor: pointer;
+}
+.crypto-sidebar-list li:first-child {
+    font-size: 1.6rem;
+}
+.sidebar-fontawsome {
+    color: #00AA4F;
+    padding-right: 0.6rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+.sidebar-fontawsome-lastchild {
+    padding-right: 0.6rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
