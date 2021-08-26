@@ -7,12 +7,12 @@ const Header = () => {
     return (
         <div className="home-navbar">
             <div className="logo-fontawsome">
-                <img className="logo" src={Logo} />
+                <img className="logo" src={Logo} alt="name"/>
                 <ul className="navbar-list">
-                    <li><i class="fab fa-twitter"></i></li>
-                    <li><i class="fab fa-facebook-square"></i></li>
-                    <li><i class="fab fa-linkedin"></i></li>
-                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i className="fab fa-twitter"></i></li>
+                    <li><i className="fab fa-facebook-square"></i></li>
+                    <li><i className="fab fa-linkedin"></i></li>
+                    <li><i className="fab fa-instagram"></i></li>
                 </ul>
             </div>
             <div className="logo-fontawsome">
@@ -35,10 +35,10 @@ const Header = () => {
                 </ul>
                 
             </div>
-            <div class="searchBox">
+            <div className="searchBox">
                 <input className="searchInput"type="text" name="" placeholder="Search"/>
                 <button className="searchButton" href="#">
-                    <i class="fas fa-search"></i>
+                    <i className="fas fa-search"></i>
                 </button>
             </div>
         </div>

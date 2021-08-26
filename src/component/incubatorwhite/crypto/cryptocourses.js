@@ -5,7 +5,7 @@ const Cryptocousres = ({title, week, percent, button}) => {
         <div>
             <div className="crypto-card">
                 {       
-                    button == 'Completed' ? <button className="crypto-complete-button">Completed</button>
+                    button === 'Completed' ? <button className="crypto-complete-button">Completed</button>
                     : <button className="crypto-progress-button">In Progress</button>
                 }
                 <h3 className="crypto-card-h3">Week {week} -  {title}</h3>

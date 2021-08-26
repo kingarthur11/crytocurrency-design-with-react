@@ -4,7 +4,7 @@ import './banner.css'
 const Barner = () => {
     return (
         <div>
-            <section class="home-section">
+            <section className="home-section">
                 <div>
                     <div className="progress-home-content">
                         <div className="progress-home-text">

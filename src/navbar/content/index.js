@@ -6,12 +6,12 @@ const Header = () => {
     return (
         <div className="header-navbar">
             <div className="logo-fontawsome">
-                <img className="logo" src={Logo} />
+                <img className="logo" src={Logo} alt="name"/>
                 <ul className="navbar-list">
-                    <li><i class="fab fa-twitter"></i></li>
-                    <li><i class="fab fa-facebook-square"></i></li>
-                    <li><i class="fab fa-linkedin"></i></li>
-                    <li><i class="fab fa-instagram"></i></li>
+                    <li><i className="fab fa-twitter"></i></li>
+                    <li><i className="fab fa-facebook-square"></i></li>
+                    <li><i className="fab fa-linkedin"></i></li>
+                    <li><i className="fab fa-instagram"></i></li>
                 </ul>
             </div>
             <div className="logo-fontawsome">
@@ -22,7 +22,7 @@ const Header = () => {
                     <li>Join</li>
                 </ul>
                 <span className="navbar-font-search">
-                    <i class="fas fa-search navbar-font-search-content"></i>
+                    <i className="fas fa-search navbar-font-search-content"></i>
                 </span>
             </div>
         </div>

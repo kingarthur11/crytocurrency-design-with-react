@@ -18,12 +18,12 @@ const Feature = () => {
                         <h3 className="incubator-body-h3">Featured Startups </h3>
                         <p className="incubator-body-p">Invest in the next billion dolar company today</p>
                     </div>
-                    <i class="fas fa-arrow-left left-arrow-mangoswap-content"></i>
+                    <i className="fas fa-arrow-left left-arrow-mangoswap-content"></i>
                     <div className="incubator-content">
                         {data.map((feature) => {
                         return <Features key={feature.id} {...feature}/>;
                             })}
-                     <i class="fas fa-arrow-right left-arrow-mangoswap-content"></i>
+                     <i className="fas fa-arrow-right left-arrow-mangoswap-content"></i>
                     </div>
                 </div>
                 <GalaryImage />

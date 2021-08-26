@@ -6,7 +6,7 @@ const Learnblockchains = ({title, earn, heading, numerator, denominator, percent
             <div className="blockchain-list">
                 <div className="blockchain-body">
                     <div className="learn-card">
-                        <button className="earn-button"><i class="fas fa-circle dot"></i>Earn ${earn}</button>
+                        <button className="earn-button"><i className="fas fa-circle dot"></i>Earn ${earn}</button>
                         <h3 className="blockchain-card-h2">{heading}</h3>
                         <h5 className="blockchain-card-h3">{title}</h5>
                         <button className="blockcain-card-button">Learn</button>

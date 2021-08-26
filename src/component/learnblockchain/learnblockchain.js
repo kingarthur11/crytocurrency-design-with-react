@@ -12,7 +12,7 @@ const Learnblockchain = () => {
             <div className="learn-blockchain-body">
                 <div className="learn-search">
                     <input className="blockchain-search-input" type="text" placeholder="What event are you looking for?"/>
-                    <span><i class="fas fa-search learn-search-fontawsome"></i></span>
+                    <span><i className="fas fa-search learn-search-fontawsome"></i></span>
                 </div>
                     <h3 className="blockchain-list-h3">My Courses</h3>
                     <hr />

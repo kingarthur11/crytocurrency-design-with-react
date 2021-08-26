@@ -12,7 +12,7 @@ const Mangoswap = () => {
                     <div className="mangoswap-header-content">
                         <div className="mangoswap-header">
                             <div className="mangoswap-logo">
-                                <i class="fas fa-arrow-left left-arrow-mangoswap"></i>
+                                <i className="fas fa-arrow-left left-arrow-mangoswap"></i>
                                 <img src={mangoswapImage} alt="name" />
                                 <h3 className="mangoswap-logo-h3">Mangoswap</h3>
                             </div>
@@ -42,9 +42,9 @@ const Mangoswap = () => {
                                     <p>
                                         mangoswap.com
                                         <span>
-                                            <i class="fab fa-twitter mangoswap-fontawsome"></i>
-                                            <i class="fab fa-instagram mangoswap-fontawsome"></i>
-                                            <i class="fab fa-facebook-square mangoswap-fontawsome"></i>
+                                            <i className="fab fa-twitter mangoswap-fontawsome"></i>
+                                            <i className="fab fa-instagram mangoswap-fontawsome"></i>
+                                            <i className="fab fa-facebook-square mangoswap-fontawsome"></i>
                                         </span>
                                     </p>
                                 </div>
@@ -61,28 +61,28 @@ const Mangoswap = () => {
                             <div className="mangoswap-sidebar-name">
                                 <p>Meet the team</p>
                                 <div className="mangoswap-sidebar-persons">
-                                    <i class="fas fa-circle  mangoswap-sidebar-fontawsome-circlr"></i>
+                                    <i className="fas fa-circle  mangoswap-sidebar-fontawsome-circlr"></i>
                                     <div>
                                         <h4>Edmund Kitan</h4>
                                         <p>Founder</p>
                                     </div>
                                 </div>
                                 <div className="mangoswap-sidebar-persons">
-                                    <i class="fas fa-circle  mangoswap-sidebar-fontawsome-circlr"></i>
+                                    <i className="fas fa-circle  mangoswap-sidebar-fontawsome-circlr"></i>
                                     <div>
                                         <h4>Edmund Kitan</h4>
                                         <p>Founder</p>
                                     </div>
                                 </div>
                                 <div className="mangoswap-sidebar-persons">
-                                    <i class="fas fa-circle  mangoswap-sidebar-fontawsome-circlr"></i>
+                                    <i className="fas fa-circle  mangoswap-sidebar-fontawsome-circlr"></i>
                                     <div>
                                         <h4>Edmund Kitan</h4>
                                         <p>Founder</p>
                                     </div>
                                 </div>
                                 <div className="mangoswap-sidebar-persons">
-                                    <i class="fas fa-circle  mangoswap-sidebar-fontawsome-circlr"></i>
+                                    <i className="fas fa-circle  mangoswap-sidebar-fontawsome-circlr"></i>
                                     <div>
                                         <h4>Edmund Kitan</h4>
                                         <p>Founder</p>

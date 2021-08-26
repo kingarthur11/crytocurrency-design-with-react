@@ -5,24 +5,24 @@ import './banner.css'
 const Barner = () => {
     return (
         <div>
-            <section class="pause-section">
+            <section className="pause-section">
                 <div>
                     <div>
-                        <img className="course-video" src={imag} />
+                        <img className="course-video" src={imag} alt="name"/>
                     </div>
                     <div className="transparent-background-center">
-                        <i class="fas fa-play progress-button-center"></i> 
+                        <i className="fas fa-play progress-button-center"></i> 
                     </div>
                     <div className="transparent-gray-background">  
-                        <i class="fas fa-play progress-button"></i> 
+                        <i className="fas fa-play progress-button"></i> 
                         <span className="time">12:00</span>
                         <span className="progress-horizontal-line"></span>
                         <span>
-                            <i class="fas fa-circle progress-circle"></i>
+                            <i className="fas fa-circle progress-circle"></i>
                             <hr className="progress-horizontal"/>
-                            <i class="fas fa-volume-up progress-speaker"></i>
-                            <i class="fas fa-cog progress-setting"></i>
-                            <i class="fas fa-expand progress-expand"></i>
+                            <i className="fas fa-volume-up progress-speaker"></i>
+                            <i className="fas fa-cog progress-setting"></i>
+                            <i className="fas fa-expand progress-expand"></i>
                         </span>
                     </div>
                 </div>
